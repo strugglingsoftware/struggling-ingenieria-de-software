@@ -3,7 +3,7 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - main # O la rama principal que utilices
+      - main
 
 jobs:
   deploy:
@@ -34,7 +34,8 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with: path:./build
+        with: 
+          path: ./build
 
       - name: Deploy to GitHub Pages
         id: deployment
