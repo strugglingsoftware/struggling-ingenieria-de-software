@@ -1,0 +1,342 @@
+/**
+ * Estilos para la página de documentos y libros
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
+  color: white;
+}
+
+[data-theme='dark'] .heroBanner {
+  background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+}
+
+.booksSection {
+  padding: 4rem 0;
+  background: var(--ifm-background-color);
+}
+
+.resourcesSection {
+  padding: 4rem 0;
+  background: var(--ifm-color-gray-100);
+}
+
+[data-theme='dark'] .resourcesSection {
+  background: #1e1e1e;
+}
+
+.ctaSection {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, var(--ifm-color-primary-light) 0%, var(--ifm-color-primary) 100%);
+  text-align: center;
+  color: white;
+}
+
+[data-theme='dark'] .ctaSection {
+  background: linear-gradient(135deg, #333 0%, #2a2a2a 100%);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.noResults {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: var(--ifm-color-emphasis-700);
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.noResults h3 {
+  color: var(--ifm-color-emphasis-800);
+  margin-bottom: 1rem;
+}
+
+.noResults p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.sectionHeader h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .sectionHeader h2 {
+  color: var(--ifm-color-primary-light);
+}
+
+.sectionHeader p {
+  font-size: 1.2rem;
+  color: var(--ifm-color-gray-700);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+[data-theme='dark'] .sectionHeader p {
+  color: var(--ifm-color-gray-300);
+}
+
+/* Tarjetas de libros */
+.bookCard {
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid transparent;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+[data-theme='dark'] .card {
+  background: #2a2a2a;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme='dark'] .card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.cardHeader {
+  padding: 1.5rem;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+
+.bookIcon {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  width: 60px;
+  height: 60px;
+}
+
+.bookInfo {
+  flex: 1;
+}
+
+.bookTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.bookStatus {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.cardBody {
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.bookDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-color-gray-700);
+}
+
+[data-theme='dark'] .bookDescription {
+  color: var(--ifm-color-gray-300);
+}
+
+.bookMeta {
+  margin-bottom: 1.5rem;
+}
+
+.metaItem {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-gray-600);
+}
+
+[data-theme='dark'] .metaItem {
+  color: var(--ifm-color-gray-400);
+}
+
+.bookTopics {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-gray-600);
+}
+
+[data-theme='dark'] .bookTopics {
+  color: var(--ifm-color-gray-400);
+}
+
+.topicTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.topicTag {
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid currentColor;
+}
+
+.cardFooter {
+  padding: 1.5rem;
+  padding-top: 0;
+  margin-top: auto;
+}
+
+.cardFooter .button {
+  width: 100%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/* Tarjetas de recursos */
+.resourceCard {
+  margin-bottom: 2rem;
+}
+
+.resourceIcon {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.resourceTitle {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-gray-900);
+}
+
+[data-theme='dark'] .resourceTitle {
+  color: var(--ifm-color-gray-100);
+}
+
+.resourceDescription {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-color-gray-700);
+  line-height: 1.5;
+}
+
+[data-theme='dark'] .resourceDescription {
+  color: var(--ifm-color-gray-300);
+}
+
+/* CTA Section */
+.ctaContent h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.ctaContent p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ctaButtons .button {
+  min-width: 200px;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 2rem 0;
+  }
+  
+  .heroBanner h1 {
+    font-size: 2rem;
+  }
+  
+  .sectionHeader h2 {
+    font-size: 2rem;
+  }
+  
+  .bookCard,
+  .resourceCard {
+    margin-bottom: 1.5rem;
+  }
+  
+  .cardHeader {
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+  
+  .bookIcon {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+  }
+  
+  .bookTitle {
+    font-size: 1.25rem;
+  }
+  
+  .cardBody {
+    padding: 1rem;
+  }
+  
+  .cardFooter {
+    padding: 1rem;
+    padding-top: 0;
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ctaButtons .button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .booksSection,
+  .resourcesSection,
+  .ctaSection {
+    padding: 3rem 0;
+  }
+}

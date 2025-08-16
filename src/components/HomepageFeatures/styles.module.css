@@ -9,3 +9,71 @@
   height: 200px;
   width: 200px;
 }
+
+.featureIcon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featureIcon svg {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+}
+
+.featureIcon svg:hover {
+  transform: scale(1.1);
+}
+
+/* Estilos específicos para YouTube - fondo blanco */
+.featureIcon .youtube-icon {
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+}
+
+.featureIcon .youtube-icon svg {
+  display: block;
+}
+
+/* Estilos específicos para GitHub - borde blanco */
+.featureIcon .github-icon {
+  border: 3px solid white;
+  border-radius: 12px;
+  padding: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+}
+
+.featureIcon .github-icon svg {
+  display: block;
+}
+
+/* Estilos específicos para el libro */
+.featureIcon .book-icon {
+  display: inline-block;
+}
+
+.featureIcon .book-icon svg {
+  display: block;
+}
+
+/* Ajuste para modo oscuro */
+[data-theme='dark'] .featureIcon .github-icon {
+  border-color: white;
+}
+
+[data-theme='dark'] .featureIcon .github-icon svg {
+  color: #f0f6fc !important;
+}
+
+.featureButton {
+  margin-top: 1rem;
+}

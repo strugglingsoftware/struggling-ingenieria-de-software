@@ -1,49 +1,82 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import { FaYoutube, FaGithub, FaBook } from 'react-icons/fa';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Guías Completas',
+    icon: <FaBook style={{ color: 'var(--ifm-color-primary)' }} />,
+    iconClass: 'book-icon',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Descubre todas las guías sobre ingeniería de software: desde la 
+        creación de ideas hasta el despliegue. Todo para 
+        desarrolladores que quieren mejorar sus habilidades.
       </>
     ),
+    link: '/documentos',
+    linkText: 'Explorar',
+    internal: true
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Canal de YouTube',
+    icon: <FaYoutube style={{ color: '#ff0000', backgroundColor: 'white', borderRadius: '50%', padding: '10px' }} />, 
+    iconClass: 'youtube-icon',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Suscríbete a mi canal donde comparto tutoriales, tips y experiencias 
+        reales en el desarrollo de software. Contenido práctico para 
+        programadores en español.
       </>
     ),
+    link: 'https://www.youtube.com/@StrugglingSoftware',
+    linkText: 'Ver canal',
+    external: true
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Código en GitHub',
+    icon: <FaGithub style={{ color: '#24292e' }} />,
+    iconClass: 'github-icon',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Explora mis proyectos de código abierto, ejemplos prácticos y 
+        recursos que uso en mis tutoriales. Todo disponible para la 
+        comunidad de desarrolladores.
       </>
     ),
+    link: 'https://github.com/strugglingsoftware',
+    linkText: 'Ver repositorios',
+    external: true
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({icon, iconClass, title, description, link, linkText, external, internal}) {
+  const linkUrl = internal ? useBaseUrl(link) : link;
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <div className={styles.featureIcon}>
+          <div className={iconClass}>
+            {icon}
+          </div>
+        </div>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
+        {link && (
+          <div className={styles.featureButton}>
+            <a 
+              href={linkUrl} 
+              className="button button--primary button--md"
+              {...(external && { target: "_blank", rel: "noopener noreferrer" })}
+            >
+              {linkText}
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );

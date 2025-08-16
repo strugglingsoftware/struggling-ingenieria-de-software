@@ -16,13 +16,7 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
+        
       </div>
     </header>
   );
@@ -32,8 +26,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} - Tu guía completa de ingeniería de software`}
+      description="🚀 Struggling Software: Tu comunidad para dominar la ingeniería de software. Guías completas desde la idea hasta el despliegue, tutoriales prácticos en YouTube y código real en GitHub. Para desarrolladores que quieren crecer profesionalmente.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
