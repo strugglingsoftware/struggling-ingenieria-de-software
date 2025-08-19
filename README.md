@@ -1,41 +1,86 @@
-# Website
+# 🚀 Struggling Software - Tu Guía Completa de Ingeniería de Software
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+[![Website](https://img.shields.io/badge/Website-Live-blue?style=for-the-badge&logo=github)](https://strugglingsoftware.github.io/struggling-ingenieria-de-software/)
+[![YouTube](https://img.shields.io/badge/YouTube-Struggling%20Software-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@StrugglingSoftware)
+[![GitHub](https://img.shields.io/badge/GitHub-Repositorios-black?style=for-the-badge&logo=github)](https://github.com/strugglingsoftware)
 
-## Installation
+## 📚 ¿Qué es Struggling Software?
 
-```bash
-yarn
-```
+**Struggling Software** es una plataforma educativa completa dedicada a la **ingeniería de software**. Nuestro objetivo es proporcionar recursos prácticos y accesibles para desarrolladores de todos los niveles, desde principiantes hasta profesionales experimentados.
 
-## Local Development
+### 🎯 Nuestra Misión
 
-```bash
-yarn start
-```
+Ayudar a desarrolladores a comprender y aplicar los conceptos fundamentales de la ingeniería de software de manera práctica y efectiva, transformando ideas en aplicaciones robustas y escalables.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-## Build
+## 📖 Contenido Disponible
 
-```bash
-yarn build
-```
+### 🏗️ **De la Idea al Despliegue: Guía Completa**
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Una guía práctica que te lleva a través de **todas las etapas** de un proyecto de software
 
-## Deployment
+### 🏛️ **Arquitecturas de Software en Profundidad**
 
-Using SSH:
+Una exploración detallada de los estilos arquitectónicos más importantes
 
-```bash
-USE_SSH=true yarn deploy
-```
 
-Not using SSH:
+---
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+## ✨ Características del Sitio
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### 🎨 **Interfaz Moderna y Responsiva**
+- Diseño limpio y profesional
+- Compatible con dispositivos móviles
+- Modo claro y oscuro
+- Navegación intuitiva
+
+### 🔍 **Búsqueda Avanzada**
+- Búsqueda semántica en todo el contenido
+- Filtros por categorías y temas
+- Resultados relevantes y rápidos
+
+### 📊 **Diagramas y Visualizaciones**
+- Soporte para diagramas Mermaid
+- Fórmulas matemáticas con KaTeX
+- Diagramas de arquitectura interactivos
+
+### 💬 **Comunidad**
+- Sistema de comentarios integrado
+- Discusiones sobre cada tema
+- Compartir conocimiento y experiencias
+
+### 📱 **Integración con Redes Sociales**
+- Enlaces a YouTube para contenido multimedia
+- Repositorios de GitHub con ejemplos de código
+- Compartir en redes sociales
+
+---
+
+
+
+## 📞 Contacto y Redes Sociales
+
+- **🌐 Sitio Web**: [strugglingsoftware.github.io](https://strugglingsoftware.github.io/struggling-ingenieria-de-software/)
+- **📺 YouTube**: [@StrugglingSoftware](https://www.youtube.com/@StrugglingSoftware)
+- **💻 GitHub**: [@strugglingsoftware](https://github.com/strugglingsoftware)
+- **📧 Email**: Disponible a través de GitHub
+
+---
+
+
+
+## 🙏 Agradecimientos
+
+- **Docusaurus** por proporcionar una plataforma excelente para documentación
+- **Comunidad de desarrolladores** por compartir conocimiento y experiencias
+
+---
+
+<div align="center">
+
+**Construido con ❤️ para la comunidad de desarrolladores**
+
+[![Struggling Software](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)](https://strugglingsoftware.github.io/struggling-ingenieria-de-software/)
+
+</div>
