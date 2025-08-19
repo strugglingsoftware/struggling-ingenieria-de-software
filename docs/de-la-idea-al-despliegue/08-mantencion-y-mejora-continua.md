@@ -1,7 +1,7 @@
 ---
 comments: true 
 ---
-# Mantención y Mejora Continua
+# Capítulo 8: Mantención y Mejora Continua
 
 Lanzar tu aplicación no es el final del camino, es solo el comienzo. El software es un producto vivo que debe mantenerse, actualizarse y adaptarse con el tiempo para seguir siendo relevante y funcional. El mantenimiento continuo es clave para garantizar que tu aplicación se mantenga operativa y mejore con el tiempo. A continuación, veremos cómo llevar a cabo un buen mantenimiento después del primer despliegue.
 

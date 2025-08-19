@@ -83,7 +83,7 @@ const config = {
           anonymizeIP: true,
         },
         googleTagManager: {
-          trackingID: "GTM-TZDRQ7JG",
+          containerId: "GTM-TZDRQ7JG",
         },
       }),
     ],
@@ -97,6 +97,9 @@ const config = {
       crossorigin: 'anonymous',
     },
   ],
+  markdown: {
+    mermaid: true,
+  },
   themes: ['@docusaurus/theme-mermaid'],
 
   themeConfig:
@@ -109,7 +112,7 @@ const config = {
       },
 
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/struggling-software-logo-2.png",
       navbar: {
         title: "Struggling Software",
         items: [

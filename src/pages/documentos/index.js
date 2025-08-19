@@ -19,6 +19,17 @@ const BooksList = [
     level: 'Principiante a Intermedio',
     color: '#28a745',
     topics: ['Planificación', 'Desarrollo', 'Testing', 'Despliegue']
+  },
+  {
+    title: 'Arquitecturas de Software',
+    description: 'Guía completa para entender y aplicar las arquitecturas de software.',
+    icon: <FaRocket />,
+    link: '/arquitecturas-de-software/que-es-la-arquitectura-de-software',
+    status: 'Disponible',
+    chapters: 'Guía completa',
+    level: 'Principiante a Intermedio',
+    color: '#28a745',
+    topics: ['Arquitectura', 'Diseño', 'Patrones', 'Seguridad']
   }
 ];
 

@@ -1,7 +1,7 @@
 ---
 comments: true 
 ---
-# Desarrollo del Software: Construyendo tu Aplicación
+# Capítulo 5: Desarrollo del Software: Construyendo tu Aplicación
 
 Después de planificar y diseñar tu software, es hora de comenzar a construirlo. Esta etapa es donde realmente se transforma la idea en una aplicación funcional. Aquí no solo escribimos código, también definimos una estructura clara del proyecto, aplicamos buenas prácticas, usamos control de versiones y trabajamos en equipo (o bien, organizamos nuestro trabajo si estamos solos).
 

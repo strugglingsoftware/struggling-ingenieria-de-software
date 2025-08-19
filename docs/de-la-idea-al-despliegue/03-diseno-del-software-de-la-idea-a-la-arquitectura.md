@@ -1,7 +1,7 @@
 ---
 comments: true 
 ---
-# Diseño del Software: De la Idea a la Arquitectura
+# Capítulo 3: Diseño del Software: De la Idea a la Arquitectura
 
 El diseño es una de las fases más cruciales del desarrollo de software, ya que sienta las bases sobre las cuales se construirá el sistema. En esta etapa, tomas decisiones clave que impactarán tanto el rendimiento como la escalabilidad, la seguridad y la mantenibilidad del software. Aquí exploraremos algunos aspectos importantes que debes considerar.
 

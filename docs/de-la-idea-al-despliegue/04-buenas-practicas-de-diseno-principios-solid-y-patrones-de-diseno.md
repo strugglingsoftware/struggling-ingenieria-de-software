@@ -1,9 +1,16 @@
 ---
 comments: true 
 ---
-# Buenas Prácticas de Diseño: Principios SOLID y Patrones de diseño
+# Capítulo 4: Buenas Prácticas de Diseño: Principios SOLID y Patrones de diseño
 
-Al diseñar el sistema, es fundamental seguir principios que aseguren que tu software sea mantenible y escalable. Algunos de estos principios y patrones incluyen:
+Al diseñar cualquier sistema de software, es fundamental seguir un conjunto de principios y buenas prácticas que aseguren que el resultado final sea robusto, mantenible y escalable. Estos principios actúan como una guía para tomar decisiones de diseño que eviten problemas comunes a largo plazo.
+
+## Principios Fundamentales: KISS y DRY
+Antes de profundizar en marcos de trabajo más específicos como SOLID, es crucial entender dos de los principios más influyentes en el desarrollo de software:
+
+- **KISS (Keep It Simple, Stupid - Mantenlo Simple, Estúpido):** Este principio aboga por la simplicidad en el diseño. Sugiere que los sistemas funcionan mejor si se mantienen sencillos en lugar de complicados. Un código simple es más fácil de entender, depurar y mantener. Antes de añadir complejidad innecesaria, pregúntate siempre si existe una solución más sencilla.
+
+- **DRY (Don't Repeat Yourself - No te repitas):** Este principio se centra en reducir la repetición de código y lógica. Cada pieza de conocimiento o funcionalidad dentro de un sistema debe tener una única representación. Al evitar la duplicación, aseguras que las modificaciones solo necesiten hacerse en un lugar, lo que reduce drásticamente el riesgo de errores y facilita el mantenimiento.
 
 ## SOLID:
 Es un conjunto de cinco principios que ayudan a escribir código limpio y escalable:
@@ -36,3 +43,4 @@ La seguridad debe ser una prioridad desde el inicio del diseño. Algunos aspecto
 * **Encriptación de Datos:** Protege los datos sensibles tanto en tránsito (por ejemplo, utilizando HTTPS) como en reposo (encriptación de bases de datos).
 * **Validación de Entrada:** Asegúrate de que todas las entradas del usuario sean validadas adecuadamente para evitar ataques como la inyección SQL.
 * **Manejo de Errores:** Nunca reveles información sensible en los mensajes de error y asegúrate de registrar los errores de manera que se pueda hacer un seguimiento adecuado.
+

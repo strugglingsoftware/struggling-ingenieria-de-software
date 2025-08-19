@@ -1,7 +1,7 @@
 ---
 comments: true 
 ---
-# Cómo Planificar un Proyecto de Software
+# Capítulo 2: Cómo Planificar un Proyecto de Software
 
 La planificación es una de las etapas más importantes en el desarrollo de software. Un buen plan puede ayudarte a evitar problemas a futuro, optimizar los recursos y asegurar que el producto final cumpla con los objetivos propuestos.
 
@@ -65,3 +65,62 @@ Si estás trabajando en un equipo pequeño, es esencial definir roles claros par
 * **Product Owner:** Define la visión del producto, prioriza las funcionalidades y se asegura de que el equipo desarrolle lo que realmente es valioso para el usuario o el negocio. Es el punto de contacto entre los stakeholders y el equipo de desarrollo.
 
 Si trabajas solo, es importante asumir estos roles, o bien organizarlos adecuadamente en función de tus capacidades y prioridades. En este caso, herramientas de gestión como Trello o Notion pueden ayudarte a dividir el trabajo de manera efectiva, asignándote tareas específicas y siguiendo un cronograma claro.
+
+```mermaid
+mindmap
+  root((Planificación del Proyecto))
+    ::icon(fa fa-clipboard-list)
+    
+    Definir Idea y Propósito
+      ::icon(fa fa-lightbulb)
+      :::fill:#E6B800,stroke:#B8860B,stroke-width:3px,color:#2D1B00
+      Problema a solucionar
+        :::fill:#F0C420,stroke:#B8860B,stroke-width:2px,color:#2D1B00
+      Usuarios principales
+        :::fill:#F0C420,stroke:#B8860B,stroke-width:2px,color:#2D1B00
+      
+    Establecer Requerimientos
+      ::icon(fa fa-tasks)
+      :::fill:#3A7BC8,stroke:#2E5C8A,stroke-width:3px,color:#FFF
+      Funcionales
+        :::fill:#4A8BD8,stroke:#2E5C8A,stroke-width:2px,color:#FFF
+      No funcionales
+        :::fill:#4A8BD8,stroke:#2E5C8A,stroke-width:2px,color:#FFF
+      
+    Crear Alcance (MVP)
+      ::icon(fa fa-rocket)
+      :::fill:#28A745,stroke:#1E7E34,stroke-width:3px,color:#FFF
+      Producto Mínimo Viable
+        :::fill:#34C759,stroke:#1E7E34,stroke-width:2px,color:#FFF
+      Prioridades
+        :::fill:#34C759,stroke:#1E7E34,stroke-width:2px,color:#FFF
+      Dependencias
+        :::fill:#34C759,stroke:#1E7E34,stroke-width:2px,color:#FFF
+      
+    Elegir Metodología
+      ::icon(fa fa-project-diagram)
+      :::fill:#DC3545,stroke:#A71E2A,stroke-width:3px,color:#FFF
+      Cascada
+        :::fill:#E85563,stroke:#A71E2A,stroke-width:2px,color:#FFF
+      Ágil
+        :::fill:#E85563,stroke:#A71E2A,stroke-width:2px,color:#FFF
+      
+    Definir Herramientas y Tecnologías
+      ::icon(fa fa-cogs)
+      :::fill:#7B4397,stroke:#553066,stroke-width:3px,color:#FFF
+      Lenguajes
+        :::fill:#8E4EC6,stroke:#553066,stroke-width:2px,color:#FFF
+      Bases de datos
+        :::fill:#8E4EC6,stroke:#553066,stroke-width:2px,color:#FFF
+      Frameworks
+        :::fill:#8E4EC6,stroke:#553066,stroke-width:2px,color:#FFF
+      
+    Definir Roles
+      ::icon(fa fa-users)
+      :::fill:#D67500,stroke:#A85C00,stroke-width:3px,color:#FFF
+      Desarrollador, Diseñador, Tester...
+        :::fill:#E68A1A,stroke:#A85C00,stroke-width:2px,color:#FFF
+      Organización individual
+        :::fill:#E68A1A,stroke:#A85C00,stroke-width:2px,color:#FFF
+
+```

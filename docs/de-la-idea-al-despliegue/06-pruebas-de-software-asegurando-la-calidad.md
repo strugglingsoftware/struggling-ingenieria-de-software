@@ -1,7 +1,7 @@
 ---
 comments: true 
 ---
-# Pruebas de Software: Asegurando la Calidad
+# Capítulo 6: Pruebas de Software: Asegurando la Calidad
 
 Probar tu aplicación no es opcional: es esencial para asegurar que funcione correctamente, evitar errores graves y ofrecer una buena experiencia al usuario. Las pruebas te permiten validar que lo que desarrollaste cumple con los requerimientos y se comporta correctamente en distintos escenarios.
 

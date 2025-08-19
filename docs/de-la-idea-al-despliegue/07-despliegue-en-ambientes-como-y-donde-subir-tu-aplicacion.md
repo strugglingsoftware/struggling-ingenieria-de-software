@@ -1,7 +1,7 @@
 ---
 comments: true 
 ---
-# Despliegue en Ambientes: Cómo y Dónde Subir tu Aplicación
+# Capítulo 7: Despliegue en Ambientes: Cómo y Dónde Subir tu Aplicación
 
 Desplegar una aplicación no es solo "subir el código a producción". En realidad, existen distintos entornos donde la aplicación puede vivir antes de llegar al usuario final, y cada uno cumple un propósito distinto.
 
