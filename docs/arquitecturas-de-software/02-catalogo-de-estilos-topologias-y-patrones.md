@@ -5,7 +5,7 @@ comments: true
 
 Ahora que hemos definido los conceptos clave en el Capítulo 1, podemos organizar el vasto mundo de la arquitectura de software en categorías claras. Este capítulo sirve como un catálogo para explorar las opciones más comunes, agrupadas por su propósito: los **estilos** definen el enfoque general, las **topologías** describen la disposición física, y los **patrones** ofrecen soluciones a problemas estructurales específicos.
 
-### **1\. Estilos Arquitectónicos (El Enfoque General)**
+### 1. Estilos Arquitectónicos (El Enfoque General)
 
 Estos son los grandes enfoques estratégicos que definen la naturaleza fundamental de tu sistema.
 
@@ -26,7 +26,7 @@ Estos son los grandes enfoques estratégicos que definen la naturaleza fundament
   * **Cuándo usarlo:** Para aplicaciones con cargas de trabajo muy altas y variables que no pueden depender de una base de datos central.  
   * **Ejemplos:** Sistemas de subastas online a gran escala, plataformas de reserva de entradas para conciertos, sistemas de procesamiento de transacciones financieras de alto volumen.
 
-### **2\. Topologías de Despliegue (La Disposición Física/Lógica)**
+### 2. Topologías de Despliegue (La Disposición Física/Lógica)
 
 Estas describen cómo se distribuyen y conectan los componentes en una red.
 
@@ -43,7 +43,7 @@ Estas describen cómo se distribuyen y conectan los componentes en una red.
   * **Cuándo usarla:** Cuando se necesita desacoplar los componentes de un sistema distribuido y garantizar la entrega de mensajes.  
   * **Ejemplos:** RabbitMQ gestionando colas de tareas, Apache Kafka procesando flujos de datos en tiempo real, cualquier sistema que use un Enterprise Service Bus (ESB).
 
-### **3\. Patrones de Estructura Interna (La Organización del Código)**
+### 3. Patrones de Estructura Interna (La Organización del Código)
 
 Estos patrones definen cómo organizar el código *dentro* de un componente (ya sea un monolito completo o un único microservicio).
 
@@ -60,7 +60,7 @@ Estos patrones definen cómo organizar el código *dentro* de un componente (ya 
   * **Cuándo usarlo:** Para sistemas complejos y de larga duración donde la mantenibilidad y la independencia de los frameworks son la máxima prioridad.  
   * **Ejemplos:** Aplicaciones móviles (Android/iOS) diseñadas para ser mantenibles a largo plazo, sistemas de software críticos donde la lógica de negocio debe ser probada exhaustivamente y de forma aislada.
 
-### **4\. Patrones Arquitectónicos para Problemas Específicos**
+### 4. Patrones Arquitectónicos para Problemas Específicos
 
 Estos son patrones a gran escala que resuelven problemas concretos dentro de una arquitectura.
 
@@ -75,4 +75,4 @@ Estos son patrones a gran escala que resuelven problemas concretos dentro de una
 * **Patrón Pipe-Filter:**  
   * **Descripción:** Procesa un flujo de datos en una serie de pasos secuenciales ("filtros") conectados por "tuberías" (pipes).  
   * **Cuándo usarlo:** Para tareas de procesamiento de datos y flujos de trabajo secuenciales.  
-  * **Ejemplos:** Los comandos en la terminal de Unix/Linux (ej. cat log.txt | grep error | wc \-l), flujos de procesamiento de datos (ETL), compiladores de software.
+  * **Ejemplos:** Los comandos en la terminal de Unix/Linux (ej. cat log.txt | grep error | wc -l), flujos de procesamiento de datos (ETL), compiladores de software.

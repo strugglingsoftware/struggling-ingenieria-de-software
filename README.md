@@ -17,12 +17,16 @@ Ayudar a desarrolladores a comprender y aplicar los conceptos fundamentales de l
 ## 📖 Contenido Disponible
 
 ### 🏗️ **De la Idea al Despliegue: Guía Completa**
-
 Una guía práctica que te lleva a través de **todas las etapas** de un proyecto de software
 
 ### 🏛️ **Arquitecturas de Software en Profundidad**
-
 Una exploración detallada de los estilos arquitectónicos más importantes
+
+### 🧑‍💻 **Ecosistema de Roles en Informática**
+Una guía para entender el presente y el futuro del trabajo en tecnología
+
+### 📚 **📖 [Ver Índice Completo de Todos los Libros](INDICE-LIBROS.md)**
+*Contenido detallado, capítulos, audiencia objetivo y próximos libros en desarrollo*
 
 
 ---
